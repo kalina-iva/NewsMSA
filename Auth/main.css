@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+/*.form_container {
+    margin:auto;
+}*/
+
+.mysubform input {
+    display:block;
+    font-size:14px;
+    font-family:"Helvetica", "Arial", "Tahoma", "Geneva", sans-serif;
+}
+
+#Auth {
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+.mysubform p {color:#fff; text-align:center; font-size: 15px;}
+.form_container {position:relative; }
+.mysubform {
+    display: block;
+    padding:10px; 
+    margin:auto; 
+    background:#D14747; 
+    /*border:1px solid #D14747;*/
+    border-radius: 5px;
+    width: 30%;
+    position: fixed; top: 45%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
+}
+.mysubform input[type="text"], .mysubform input[type="password"] {
+    padding:7px 5px; 
+    /*margin-bottom:5px; */
+    background:#DA6C6C;
+    color:#fff;
+    width:100%;
+    border:0;
+    border-radius:3px;
+}
+
+.mysubform label {
+    color: #fff;
+}
+.mysubform input[type="submit"] {
+    padding:7px;
+    background:rgba(0, 0, 0, 0);
+    color:#FFFC00; border:2px solid #FFFC00;
+    border-radius:5px;
+    margin:auto;
+    width:200px;
+    
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+   color:    #fff;
+    opacity: 1 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+}
